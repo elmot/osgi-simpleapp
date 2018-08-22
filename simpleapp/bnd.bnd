@@ -1,0 +1,9 @@
+Bundle-Name: ${project.name}
+Bundle-Version: ${project.version}
+Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+Export-Package: org.vaadin.elmot.v10osgi.hack,org.vaadin.elmot.v10osgi
+Import-Package: *,!com.vaadin.flow.component.*
+Web-ContentPath: /simpleapp
+Bundle-Classpath:.,lib/vaadin-button-flow-1.1-SNAPSHOT.jar,lib/vaadin-ordered-layout-flow-1.1-SNAPSHOT.jar
+Private-Package:com.vaadin.flow.component.*
+Bundle-Activator: org.vaadin.elmot.v10osgi.hack.Activator
