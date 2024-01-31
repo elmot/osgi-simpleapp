@@ -15,7 +15,7 @@
 
         <!-- Dependencies -->
         <vaadin.version>10.0.2</vaadin.version>
-        <jetty.version>9.4.48.v20220622</jetty.version>
+        <jetty.version>9.4.53.v20231009</jetty.version>
         <felix.cache.dir>${project.build.directory}/felix/felix-cache</felix.cache.dir>
         <felix.bundle.dir>${project.build.directory}/felix/bundle</felix.bundle.dir>
     </properties>
